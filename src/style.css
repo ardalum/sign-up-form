@@ -109,7 +109,7 @@ label {
   background-color: #f8f9fa;
 }
 
-button {
+.submit {
   margin: 3rem 0 2rem 4rem;
   padding: 1.5rem 6rem;
   border-radius: 9px;
@@ -120,8 +120,12 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.submit:hover {
   background-color: #20c997;
+}
+
+.submit:active {
+  background-color: white;
 }
 
 .create-account p {
